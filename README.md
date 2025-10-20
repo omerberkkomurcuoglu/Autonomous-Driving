@@ -1,8 +1,3 @@
-Süper 👍 dosyanın adı **`chart.png`**.
-Eğer bu görsel **repo’nun ana dizinindeyse** (örneğin `chart.png` doğrudan oradaysa),
-aşağıdaki dosyayı olduğu gibi `README.md` olarak repo'na ekleyebilirsin 👇
-
----
 
 ## 🧠 CARLA YOLO Multi-Threaded System
 
