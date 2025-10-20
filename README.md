@@ -113,6 +113,4 @@ Bu proje yalnızca **araştırma ve eğitim** amaçlıdır.
 
 ---
 
-İstersen bu README’yi sana `.md` dosyası olarak da oluşturup gönderebilirim (indirilebilir biçimde).
-Yapayım mı?
 
