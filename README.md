@@ -7,6 +7,27 @@ Sistem, üç ana bileşenden oluşur:
 * 🧩 **Inference Thread:** Kameradan alınan frameleri modellerle işler.
 * 🎥 **Display Thread:** FPS değeriyle birlikte sonuçları gösterir.
 * 🚗 **Move Thread:** Tahmin sonuçlarına göre aracın kontrolünü sağlar.
+🔹 Ayrıca proje, otonom araç hareketi için algılama ve görselleştirme altyapısı da içerir.
+Sistem üç temel bileşen üzerinden özetlenebilir:
+
+Algılama (Perception):
+
+Kamera görüntüleri gerçek zamanlı toplanır ve YOLO ile araç tespiti, yol segmentasyonu ve şerit algısı yapılır.
+
+Tahminler çoklu thread yapısı ile eş zamanlı olarak işlenir.
+
+Görselleştirme (Display):
+
+Algılama sonuçları OpenCV ile ekrana yansıtılır ve video kaydı alınır.
+
+Bounding box, segmentasyon maskeleri ve FPS bilgisi kullanıcıya gösterilir.
+
+Araç Kontrolü (Car Control):
+
+Araç hareketi thread üzerinden sağlanır (şu anda sabit hız ve direksiyon ile).
+
+Yol, şerit ve engel bilgileri kullanılarak PyTorch tabanlı kontrol modelleriyle gelecekte otonom sürüş gerçekleştirilebilir.
+
 
 ---
 
