@@ -10,19 +10,19 @@ Sistem, üç ana bileşenden oluşur:
 🔹 Ayrıca proje, otonom araç hareketi için algılama ve görselleştirme altyapısı da içerir.
 Sistem üç temel bileşen üzerinden özetlenebilir:
 
-Algılama (Perception):
+1)-Algılama (Perception):
 
 Kamera görüntüleri gerçek zamanlı toplanır ve YOLO ile araç tespiti, yol segmentasyonu ve şerit algısı yapılır.
 
 Tahminler çoklu thread yapısı ile eş zamanlı olarak işlenir.
 
-Görselleştirme (Display):
+2)-Görselleştirme (Display):
 
 Algılama sonuçları OpenCV ile ekrana yansıtılır ve video kaydı alınır.
 
 Bounding box, segmentasyon maskeleri ve FPS bilgisi kullanıcıya gösterilir.
 
-Araç Kontrolü (Car Control):
+3)-Araç Kontrolü (Car Control):
 
 Araç hareketi thread üzerinden sağlanır (şu anda sabit hız ve direksiyon ile).
 
