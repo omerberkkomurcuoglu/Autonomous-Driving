@@ -26,7 +26,7 @@ Bounding box, segmentasyon maskeleri ve FPS bilgisi kullanıcıya gösterilir.
 
 Araç hareketi thread üzerinden sağlanır (şu anda sabit hız ve direksiyon ile).
 
-Yol, şerit ve engel bilgileri kullanılarak PyTorch tabanlı kontrol modelleriyle gelecekte otonom sürüş gerçekleştirilebilir.
+
 
 
 ---
