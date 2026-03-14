@@ -130,7 +130,7 @@ cv2.destroyAllWindows()
 
 ### 📄 Bilgilendirme
 
-Bu proje yalnızca geliştirilme aşamasındadır
+Bu proje geliştirilme aşamasındadır
 
 ---
 
