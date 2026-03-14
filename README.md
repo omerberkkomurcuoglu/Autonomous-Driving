@@ -128,9 +128,9 @@ cv2.destroyAllWindows()
 
 ---
 
-### 📄 Lisans
+### 📄 Bilgilendirme
 
-Bu proje yalnızca **araştırma ve eğitim** amaçlıdır.
+Bu proje yalnızca geliştirilme aşamasındadır
 
 ---
 
